@@ -7,9 +7,22 @@
     <title>Document</title>
   </head>
   <body>
+    <style>
+      body {
+        background: linear-gradient(#ffffff, #a6e1fa);
+        display: grid;
+        grid-template-columns: 12fr;
+        grid-template-rows: 80px 250px 1fr 50px;
+        width: 100vw;
+        height: 100%;
+        background-repeat: no-repeat;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    </style>
     <nav>
-        <div class="container">
-          <ul>
+      <div class="container">
+        <ul>
+          <div>
             <li>
               <a href="../index.html">
                 <img
@@ -20,6 +33,8 @@
                 />
               </a>
             </li>
+          </div>
+          <div>
             <li>
               <a>
                 <label for="months2024">2024</label>
@@ -54,23 +69,82 @@
                 </select>
               </a>
             </li>
-          </ul>
-        </div>
+          </div>
+        </ul>
+      </div>
     </nav>
+    <header>
+      <div class="container">
+        <div>
+          <img id="logo1" src="../images/well-logo.jpg" alt="well logo" />
+        </div>
+        <div class="tuth">
+          <h1>TUTHILL SHARED</h1>
+          <h1>WELL COMMUNITY</h1>
+          <h3>1402 S Tuthill Well Shared</h3>
+          <h3>Buckeye, AZ 85326</h3>
+        </div>
+        <div>
+          <fieldset id="emerg">
+            <legend>Emergency</legend>
+            <label for="radio1">
+              <input type="radio" name="emergency" id="radio1" />Well Leak
+            </label>
+            <br />
+            <label for="radio2">
+              <input type="radio" name="emergency" id="radio2" />No Power
+            </label>
+            <br />
+            <label for="radio3">
+              <input type="radio" name="emergency" id="radio3" />No Water
+            </label>
+            <br />
+            <button type="sumbit" id="emerg1">Emergency</button>
+          </fieldset>
+        </div>
+      </div>
+    </header>
     <main>
-          <object
-            data="../pdf/aps-oct-2024.pdf"
-            type="application/pdf"
-            width="600px"
-            height="700px"
-          >
-            <p>
-              Your web browser doesn't have a PDF plugin.
-              <a href="../pdf/aps-oct-2024.pdf"
-                >click here to download the PDF file.</a
-              >
-            </p>
-          </object>
+      <div class="container">
+        <table>
+          <tr>
+            <th colspan="4">2024</th>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>00</td>
+
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
+        </table>        
+        <br />
+        <object
+          data="../pdf/aps-oct-2024.pdf"
+          type="application/pdf"
+          width="600px"
+          height="700px"
+        >
+          <p>
+            Your web browser doesn't have a PDF plugin.
+            <a href="../pdf/aps-oct-2024.pdf"
+              >click here to download the PDF file.</a
+            >
+          </p>
+        </object>
       </div>
     </main>
     <footer>

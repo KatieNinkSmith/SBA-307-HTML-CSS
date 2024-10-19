@@ -7,40 +7,41 @@
     <title>Document</title>
   </head>
   <body>
+    <style>
+      body {
+        background: linear-gradient(#ffffff, #a6e1fa);
+        display: grid;
+        grid-template-columns: 12fr;
+        grid-template-rows: 80px 250px 1fr 50px;
+        width: 100vw;
+        height: 100%;
+        background-repeat: no-repeat;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    </style>
     <nav id="navbtn">
       <div class="container">
         <ul>
-          <li>
-            <a class="avtice" href="index.html"
-              ><img
-                id="logo2"
-                src="images/well-logoHome.jpg"
-                alt="well logo"
-                style="width: 50px"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="pages/page2.html">APS BILLS</a>
-          </li>
-          <!-- <li>
-            <a href="#">ACCOUNTING</a>
-          </li>
-          <li>
-            <a href="#">MAINTANENCE</a>
-          </li>
-          <li>
-            <a href="#">HOW TO PAY</a>
-          </li>
-          <li>
-            <a href="#">AGREEMENTS</a>
-          </li>
-          <li>
-            <a href="#">OWNER TRANSFER</a>
-          </li> -->
-          <li>
-            <a href="pages/page3.html">CONTACT US</a>
-          </li>
+          <div>
+            <li>
+              <a class="avtice" href="index.html"
+                ><img
+                  id="logo2"
+                  src="images/well-logoHome.jpg"
+                  alt="well logo"
+                  style="width: 50px"
+                />
+              </a>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a href="pages/page2.html">APS BILLS</a>
+            </li>
+            <li>
+              <a href="pages/page3.html">CONTACT US</a>
+            </li>
+          </div>
         </ul>
       </div>
     </nav>
@@ -70,17 +71,18 @@
               <input type="radio" name="emergency" id="radio3" />No Water
             </label>
             <br />
-            <input type="sumbit" value="Emergency" id="emerg1" />
+            <button type="sumbit" id="emerg1">Emergency</button>
           </fieldset>
         </div>
       </div>
     </header>
     <main>
       <div class="container">
-        <h1>APS BILL</h1>
         <section class="content1">
+          <fieldset>
+          <h1>APS BILL</h1>
           <img
-            src="images/well-logo.jpg"
+            src="https://media2.giphy.com/media/PAujV4AqViWCA/200.webp?cid=790b76116z1lcfrgz25xcguoriuy5yr78zzkbvi4v1r25lrs&ep=v1_gifs_search&rid=200.webp&ct=g"
             alt="well logo with title and statement"
             id="homeImage"
             style="width: 200px"
@@ -91,26 +93,30 @@
             possimus ipsam, ea, laudantium vitae sequi nisi quibusdam?
             Exercitationem, dolore temporibus!
           </p>
+          </fieldset>
         </section>
-        <h1>Latest Maintanence</h1>
         <section class="content2">
+          <fieldset>
+          <h1>Latest Maintanence</h1>
+          <img
+          src="https://media3.giphy.com/media/b92ZAJIBvu2By/200.webp?cid=790b76116z1lcfrgz25xcguoriuy5yr78zzkbvi4v1r25lrs&ep=v1_gifs_search&rid=200.webp&ct=g"
+          alt="well logo no words"
+          id="homeImage2"
+          style="width: 200px"
+        />
           <p class="text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
             et amet voluptates, eveniet repellat corrupti velit nam perspiciatis
             iste eius aliquam iusto illo cum ad quos quia laboriosam quisquam
             nihil!
           </p>
-          <img
-            src="images/well-logo2.jpg"
-            alt="well logo no words"
-            id="homeImage2"
-            style="width: 200px"
-          />
+        </fieldset>
         </section>
-        <h1>Planned Update</h1>
         <section class="content3">
+          <fieldset>
+          <h1>Planned Update</h1>
           <img
-            src="images/well-logo3.jpg"
+            src="https://media1.giphy.com/media/5XamvEI62EUsU/giphy.webp?cid=790b76116z1lcfrgz25xcguoriuy5yr78zzkbvi4v1r25lrs&ep=v1_gifs_search&rid=giphy.webp&ct=g"
             alt="well logo with title"
             id="homeImage3"
           />
@@ -120,6 +126,7 @@
             earum necessitatibus libero quod iste ipsum reprehenderit culpa
             dolore optio eos.
           </p>
+          </fieldset>
         </section>
       </div>
     </main>
