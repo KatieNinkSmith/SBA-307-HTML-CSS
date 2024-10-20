@@ -8,6 +8,10 @@
   </head>
   <body>
     <style>
+      section:hover {
+        transition: 1s;
+        transform: scale(120%);
+      }
       body {
         background: linear-gradient(#ffffff, #a6e1fa);
         display: grid;
@@ -87,20 +91,19 @@
               id="homeImage"
               style="width: 200px"
             />
-            <p class="text">
-              The Latest aps bill for qucik veiw.
-            </p>
+            <p class="text">The Latest aps bill for qucik veiw.</p>
             <object
-            data="./pdf/aps-oct-2024.pdf"
-            type="application/pdf"
-            width="300px">
-            <p>
-              Your web browser doesn't have a PDF plugin.
-              <a href="../pdf/aps-oct-2024.pdf"
-                >click here to download the PDF file.</a
-              >
-            </p>
-          </object>
+              data="./pdf/aps-oct-2024.pdf"
+              type="application/pdf"
+              width="300px"
+            >
+              <p>
+                Your web browser doesn't have a PDF plugin.
+                <a href="../pdf/aps-oct-2024.pdf"
+                  >click here to download the PDF file.</a
+                >
+              </p>
+            </object>
           </fieldset>
         </section>
         <section class="content2">
@@ -112,10 +115,8 @@
               id="homeImage2"
               style="width: 200px"
             />
-            <p class="text">
-              On August 27th we replaced our booster pump!
-            </p>
-            <img src="./images/job-invoice.jpg" style="width: 300px;">
+            <p class="text">On August 27th we replaced our booster pump!</p>
+            <img src="./images/job-invoice.jpg" style="width: 300px" />
           </fieldset>
         </section>
         <section class="content3">
@@ -127,7 +128,8 @@
               id="homeImage3"
             />
             <p class="text">
-              Our next project update will be an additional pressure tank to increase out water pressure to our homes!
+              Our next project update will be an additional pressure tank to
+              increase out water pressure to our homes!
             </p>
           </fieldset>
         </section>

@@ -8,6 +8,31 @@
   </head>
   <body style="height: 100vh">
     <style>
+            @keyframes movingWater {
+        0% {
+          background: radial-gradient(#ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff);
+        }
+        20% {
+          background: radial-gradient(#a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa);
+        }
+        40% {
+          background: radial-gradient(#ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff);
+        }
+        60% {
+          background: radial-gradient(#a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa);
+        }
+        80% {
+          background: radial-gradient(#ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff);
+        }
+        100% {
+          background: radial-gradient(#a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff, #a6e1fa, #ffffff,#a6e1fa, #a6e1fa, #ffffff);
+        }
+      }
+      body {
+        animation: movingWater 2s ease infinite;
+        animation-fill-mode: both;
+        background: radial-gradient(#ffffff, #a6e1fa);
+      }
       body {
         background: linear-gradient(#ffffff, #a6e1fa);
         display: grid;
@@ -31,6 +56,9 @@
                 style="width: 50px"
               />
             </a>
+          </li>
+          <li style="height: 22px;">
+            <a href="./page2.html">APS BILLS</a>
           </li>
         </ul>
       </div>
