@@ -12,7 +12,7 @@
         background: linear-gradient(#ffffff, #a6e1fa);
         display: grid;
         grid-template-columns: 12fr;
-        grid-template-rows: 80px 250px 1fr 50px;
+        grid-template-rows: 80px 200px 1fr 50px;
         width: 100vw;
         height: 100%;
         background-repeat: no-repeat;
@@ -34,7 +34,7 @@
               </a>
             </li>
           </div>
-          <div>
+          <div class="dropdown">
             <li>
               <a>
                 <label for="months2024">2024</label>
@@ -47,8 +47,8 @@
                   <option value="month">June</option>
                   <option value="month">July</option>
                   <option value="month">August</option>
-                  <option value="month">September</option>
-                  <option value="month" selected>October</option>
+                  <option value="month" selected>September</option>
+                  <option value="month">October</option>
                   <option value="month">November</option>
                   <option value="month">December</option>
                 </select></a
@@ -68,6 +68,9 @@
                   <option value="month">December</option>
                 </select>
               </a>
+            </li>
+            <li>
+              <a href="./page3.html">CONTACT US</a>
             </li>
           </div>
         </ul>
@@ -106,45 +109,90 @@
     </header>
     <main>
       <div class="container">
-        <table>
-          <tr>
-            <th colspan="4">2024</th>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>8</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>0</td>
-            <td>00</td>
-
-          </tr>
-          <tr>
-            <td colspan="2"></td>
-          </tr>
-        </table>        
-        <br />
-        <object
-          data="../pdf/aps-oct-2024.pdf"
-          type="application/pdf"
-          width="600px"
-          height="700px"
-        >
-          <p>
-            Your web browser doesn't have a PDF plugin.
-            <a href="../pdf/aps-oct-2024.pdf"
-              >click here to download the PDF file.</a
-            >
-          </p>
-        </object>
+        <div>
+          <table>
+            <tr>
+              <th>Months</th>
+              <th>2024</th>
+              <th>2023</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$461.72</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Febuary</td>
+              <td>$483.51</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>March</td>
+              <td>$374.60</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>April</td>
+              <td>$419.26</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>May</td>
+              <td>$217.53</td>
+              <td>$193.41</td>
+            </tr>
+            <tr>
+              <td>June</td>
+              <td>$248.98</td>
+              <td>$430.53</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>$306.81</td>
+              <td>$403.68</td>
+            </tr>
+            <tr>
+              <td>August</td>
+              <td>$257.59</td>
+              <td>$434.81</td>
+            </tr>
+            <tr>
+              <td>September</td>
+              <td>$203.28</td>
+              <td>$471.75</td>
+            </tr>
+            <tr>
+              <td>October</td>
+              <td></td>
+              <td>$484.89</td>
+            </tr>
+            <tr>
+              <td>November</td>
+              <td></td>
+              <td>$432.40</td>
+            </tr>
+            <tr>
+              <td>December</td>
+              <td></td>
+              <td>$432.78</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <object
+            data="../pdf/aps-oct-2024.pdf"
+            type="application/pdf"
+            width="700px"
+            height="900px"
+          >
+            <p>
+              Your web browser doesn't have a PDF plugin.
+              <a href="../pdf/aps-oct-2024.pdf"
+                >click here to download the PDF file.</a
+              >
+            </p>
+          </object>
+        </div>
       </div>
     </main>
     <footer>
